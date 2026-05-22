@@ -1,0 +1,109 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑", SimHei, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    padding: 40px 20px;
+}
+
+/* 简历整体外层 */
+.resume-wrap {
+    width: 850px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px #ccc;
+}
+
+/* 主标题 */
+.resume-main-title {
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+/* 每个板块统一边框样式 */
+.resume-box {
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* 板块小标题 */
+.box-title {
+    font-size: 19px;
+    color: #fff;
+    background-color: #2E6DA4;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+/* 基本信息左右布局 */
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 左侧信息两列排布 */
+.info-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 30px;
+    font-size: 15px;
+}
+
+.info-item span {
+    font-weight: 600;
+    color: #333;
+}
+
+/* 右侧照片居中 */
+.info-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-img {
+    width: 130px;
+    height: 170px;
+    border: 1px solid #666;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* 分条列表通用样式 */
+.list-content {
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.list-content li {
+    margin-bottom: 8px;
+}
+
+/* 实践经历视频区域 */
+.video-box {
+    margin-top: 15px;
+    padding-top: 12px;
+    border-top: 1px dashed #ddd;
+}
+
+.video-box p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #444;
+}
